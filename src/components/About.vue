@@ -5,26 +5,8 @@
       <div class="title">
         <h1 id="underConstruction">This page is currently under construction, please check back soon :)</h1>
         </div>
-       
     </body>
   </div>
  </div>
 
 </template>
-
-
-<script>
-
-  import router from "../router";
-
-export default {
-  name: "About",
-  computed: {
-    error() {
-      return this.$route.query.error;
-    }
-  },
-
-
-};
-</script>

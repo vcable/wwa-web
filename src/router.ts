@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Splash from "./components/Splash.vue";
 import DevLogs from "./components/devLogs.vue"
+import About from "./components/About.vue"
 
 Vue.use(Router);
 
@@ -14,13 +15,13 @@ export default new Router({
     },
     {
       path: "/about",
-      name: "about",
+      name: "About",
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
-    }
+        import(/* webpackChunkName: "about" */ "./components/About.vue")
+    },
 
     { 
       path: "/devLogs",
@@ -28,5 +29,8 @@ export default new Router({
       component: () =>
       import("./components/devLogs.vue")
     }
+
+    
+
   ]
 });

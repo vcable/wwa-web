@@ -103,8 +103,13 @@ body {
    position: fixed;
    left: 15px;
    top: 630px;
-  
+  }
 
-}
+  #underConstruction {
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 100px;
+  }
 
 
