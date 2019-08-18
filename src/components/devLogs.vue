@@ -11,9 +11,7 @@
           <b-button variant="light" v-on:click="navigateAbout()">About Us</b-button>
         </div>
       </div>
-
-
-  <!-- <div id="links">
+      <!-- <div id="links">
         <div id="linkBox">
           <h3 id="linkTitle">Jump To:</h3>
 
@@ -41,7 +39,6 @@
             <br />
           </div>
         </div> -->
-
       </div>
 
       <div id="devLogsWrapper">
